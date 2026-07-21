@@ -33,7 +33,7 @@ export default function CoreValues() {
     <section className="py-14 sm:py-16 md:py-20 lg:py-24 bg-[#fafafa] overflow-hidden">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Heading */}
-        <div className="text-left md:text-cnter max-w-4xl mx-auto mb-12 md:mb-16">
+        <div className="text-left md:text-center max-w-4xl mx-auto mb-12 md:mb-16">
           <p className="uppercase tracking-[4px] sm:tracking-[6px] text-[#d07f7b] font-semibold text-xs sm:text-sm">
             Our Core Values
           </p>
