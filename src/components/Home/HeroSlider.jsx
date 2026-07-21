@@ -7,7 +7,7 @@ export default function HeroSlider() {
   const navigate = useNavigate();
 
   return (
-    <section className="relative h-screen min-h-[650px] overflow-hidden -mt-10">
+    <section className="relative h-[680px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[850px] overflow-hidden -mt-10">
       {/* Background Image */}
       <motion.img
         src="/home-1.jpg"
@@ -21,13 +21,14 @@ export default function HeroSlider() {
           ease: "easeInOut",
         }}
         className="
-          absolute inset-0
-          w-full h-full
-          object-cover
-          object-[65%_center]
-          sm:object-center
-          lg:object-center
-        "
+    absolute inset-0
+    w-full h-full
+    object-cover
+    object-[10%_center]
+    sm:object-[25%_center]
+    md:object-center
+    lg:object-center
+  "
       />
 
       {/* Left Vertical Text */}

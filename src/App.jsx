@@ -17,6 +17,8 @@ import UmpiringTraining from "./pages/UmpiringTraining";
 import HomeTraining from "./pages/HomeTraining";
 import Suppliment from "./pages/Suppliment";
 import SportsWear from "./pages/SportsWear";
+import Swimming from "./pages/Swimming";
+import AdvanceTrainer from "./pages/AdvanceTrainer";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
         <Route path="/home-trainer" element={<HomeTraining />} />
         <Route path="/supplements" element={<Suppliment />} />
         <Route path="/sportswear" element={<SportsWear />} />
+        <Route path="/swimming" element={<Swimming />} />
+        <Route path="/trainer" element={<AdvanceTrainer />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

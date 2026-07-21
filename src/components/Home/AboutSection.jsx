@@ -7,9 +7,9 @@ export default function AboutSection() {
   const navigate = useNavigate();
 
   return (
-    <section className="py-10 lg:py-10 bg-white overflow-hidden">
+    <section className="py-10 lg:py-20 bg-white overflow-hidden">
       <div className="max-w-8xl mx-auto px-5 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-14 lg:gap-0 items-center">
           {/* LEFT IMAGE */}
 
           <motion.div

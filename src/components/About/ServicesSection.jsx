@@ -24,15 +24,13 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="py-16 lg:py-24 bg-white overflow-hidden">
+    <section className="py-16 lg:py-10 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-12 lg:mb-16">
-          <p className="uppercase tracking-[3px] sm:tracking-[5px] lg:tracking-[6px] text-[#d07f7b] font-bold text-sm sm:text-base">
-            Our Services
-          </p>
+          
 
-          <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+          <h2 className="mt-4 text-3xl md:text-4xl lg:text-4xl font-bold leading-tight">
             Building Stronger Bodies,
             <br className="hidden sm:block" />
             <span className="sm:hidden"> </span>

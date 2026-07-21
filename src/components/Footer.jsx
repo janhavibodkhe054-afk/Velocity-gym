@@ -3,7 +3,10 @@ import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
-  FaArrowRight,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaClock,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -74,19 +77,19 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="/gallery"
+                  href="/whyus"
                   className="hover:text-[#d07f7b] transition duration-300"
                 >
-                  Gallery
+                  Why Us
                 </a>
               </li>
 
               <li>
                 <a
-                  href="/whyus"
+                  href="/gallery"
                   className="hover:text-[#d07f7b] transition duration-300"
                 >
-                  Why Us
+                  Gallery
                 </a>
               </li>
 
@@ -102,10 +105,20 @@ export default function Footer() {
           </div>
 
           {/* Services */}
+          {/* Services */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Our Services</h3>
 
             <ul className="space-y-4 text-gray-400">
+              <li>
+                <a
+                  href="/trainer"
+                  className="hover:text-[#d07f7b] transition duration-300"
+                >
+                  Advance Personal Trainer Course
+                </a>
+              </li>
+
               <li>
                 <a
                   href="/gym"
@@ -159,47 +172,79 @@ export default function Footer() {
                   Sports Wear
                 </a>
               </li>
+
+              <li>
+                <a
+                  href="/swimming"
+                  className="hover:text-[#d07f7b] transition duration-300"
+                >
+                  Swimming Training
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Newsletter */}
+          {/* Contact Details */}
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Newsletter</h3>
+            <h3 className="text-2xl font-semibold mb-6">Contact Us</h3>
 
-            <p className="text-gray-400 mb-5">
-              Subscribe to receive fitness tips and latest updates.
-            </p>
+            <div className="space-y-6 text-gray-400">
+              <div className="flex items-start gap-4">
+                <FaMapMarkerAlt className="text-[#d07f7b] mt-1 text-lg flex-shrink-0" />
 
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="w-full px-4 py-3 bg-[#1d1d1d] outline-none"
-              />
+                <p className="leading-7 text-gray-400">
+                  2nd Floor, Koul Building No. 1,
+                  <br />
+                  Next to Tata Showroom,
+                  <br />
+                  Opp. Kumar Pacific Mall,
+                  <br />
+                  Swargate,
+                  <br />
+                  Pune, Maharashtra - 411042
+                </p>
+              </div>
 
-              <button className="bg-[#d07f7b] px-5 flex items-center justify-center hover:bg-red-700 duration-300">
-                <FaArrowRight />
-              </button>
+              <div className="flex items-center gap-4">
+                <FaPhoneAlt className="text-[#d07f7b]" />
+                <a
+                  href="tel:+917900004334"
+                  className="hover:text-[#d07f7b] transition"
+                >
+                  +91 79000 04334
+                </a>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <FaEnvelope className="text-[#d07f7b]" />
+                <a
+                  href="mailto:info@velocitysportsfitness.com"
+                  className="hover:text-[#d07f7b] transition"
+                >
+                  info@velocitysportsfitness.com
+                </a>
+              </div>
             </div>
 
             <div className="flex gap-4 mt-8">
               <a
                 href="#"
-                className="w-11 h-11 rounded-full bg-[#1d1d1d] flex items-center justify-center hover:bg-red-600 duration-300"
+                className="w-11 h-11 rounded-full bg-[#1d1d1d] flex items-center justify-center hover:bg-[#d07f7b] duration-300"
               >
                 <FaFacebookF />
               </a>
 
               <a
                 href="#"
-                className="w-11 h-11 rounded-full bg-[#1d1d1d] flex items-center justify-center hover:bg-red-600 duration-300"
+                className="w-11 h-11 rounded-full bg-[#1d1d1d] flex items-center justify-center hover:bg-[#d07f7b] duration-300"
               >
                 <FaInstagram />
               </a>
 
               <a
                 href="#"
-                className="w-11 h-11 rounded-full bg-[#1d1d1d] flex items-center justify-center hover:bg-red-600 duration-300"
+                className="w-11 h-11 rounded-full bg-[#1d1d1d] flex items-center justify-center hover:bg-[#d07f7b] duration-300"
               >
                 <FaYoutube />
               </a>

@@ -129,7 +129,7 @@ export default function FloatingContact() {
         }}
       >
         <a
-          href="https://wa.me/919923686402"
+          href="https://wa.me/919860463030"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative flex items-center justify-end water-float"

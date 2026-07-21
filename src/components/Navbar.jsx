@@ -28,7 +28,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
 
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-9 font-medium text-[15px]">
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-9 font-medium text-[18px]">
             <a href="/" className="hover:text-orange-500 duration-300">
               Home
             </a>
@@ -51,6 +51,10 @@ export default function Navbar() {
 
               {serviceDropdown && (
                 <div className="absolute top-6 left-0 bg-white rounded-lg shadow-xl w-64 py-2">
+                  <a href="/trainer" className="block px-5 py-3 hover:bg-orange-50">
+                    Advance Personal Trainer Course
+                  </a>
+
                   <a href="/gym" className="block px-5 py-3 hover:bg-orange-50">
                     Gym Personal Training
                   </a>
@@ -88,6 +92,13 @@ export default function Navbar() {
                     className="block px-5 py-3 hover:bg-orange-50"
                   >
                     Sports Wear
+                  </a>
+
+                  <a
+                    href="/swimming"
+                    className="block px-5 py-3 hover:bg-orange-50"
+                  >
+                    Swimming Training
                   </a>
                 </div>
               )}
@@ -165,6 +176,13 @@ export default function Navbar() {
 
               <div className="ml-4 border-l-2 border-[#d07f7b]/30 pl-4 mt-2">
                 <a
+                  href="/trainer"
+                  className="block py-2 font-medium hover:text-[#d07f7b] transition duration-300"
+                >
+                  Advance Personal Trainer Course
+                </a>
+                
+                <a
                   href="/gym"
                   className="block py-2 font-medium hover:text-[#d07f7b] transition duration-300"
                 >
@@ -204,6 +222,13 @@ export default function Navbar() {
                   className="block py-2 font-medium hover:text-[#d07f7b] transition duration-300"
                 >
                   Sports Wear
+                </a>
+
+                <a
+                  href="/swimming"
+                  className="block py-2 font-medium hover:text-[#d07f7b] transition duration-300"
+                >
+                  Swimming Training
                 </a>
               </div>
             </details>

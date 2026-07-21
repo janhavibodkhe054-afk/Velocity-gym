@@ -24,6 +24,8 @@ const services = [
       "https://plus.unsplash.com/premium_photo-1663050901483-ee8703cc8372?fm=jpg&q=60&w=3000&auto=format&fit=crop",
     icon: <Dumbbell size={28} />,
     link: "/gym",
+    description:
+      "Achieve your fitness goals with customized workout plans, one-on-one coaching, and expert guidance tailored to your body and lifestyle.",
   },
   {
     title: "Cricket Coaching",
@@ -31,6 +33,8 @@ const services = [
       "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2023-06-24_at_05.54.40_1.webp?v=1724706714&width=1600",
     icon: <Trophy size={28} />,
     link: "/cricket",
+    description:
+      "Enhance your batting, bowling, fielding, and match strategies through structured coaching and professional practice sessions.",
   },
   {
     title: "Umpiring Training",
@@ -38,13 +42,17 @@ const services = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRs767dyG1mOx9XlZJSDQlImV8XgEEfkjwVTTQK5eFqIUJ7A9AJ1lJUXm7&s=10",
     icon: <ShieldCheck size={28} />,
     link: "/umpiring",
+    description:
+      "Master the laws of cricket, decision-making skills, and practical umpiring techniques with comprehensive professional training.",
   },
   {
-    title: "Home Service",
+    title: "Home Personal Trainer ",
     image:
       "https://www.homefitness.com.sg/image/catalog/products/Horizon%20Fitness/t202/service%203.jpeg",
     icon: <House size={28} />,
     link: "/home-trainer",
+    description:
+      "Experience personalized fitness coaching at your home with flexible schedules designed for convenience and effective results.",
   },
   {
     title: "Supplements",
@@ -52,6 +60,8 @@ const services = [
       "https://www.physique-fit.co.uk/wp-content/uploads/2024/01/900-supplements.jpg",
     icon: <Pill size={28} />,
     link: "/supplements",
+    description:
+      "Choose premium-quality supplements that support muscle growth, recovery, endurance, and overall athletic performance safely.",
   },
   {
     title: "Sports Wear",
@@ -59,6 +69,8 @@ const services = [
       "https://img5.grofrom.com/www.ruidesenapparel.com/uploads/fitness-1.jpg",
     icon: <Shirt size={28} />,
     link: "/sportswear",
+    description:
+      "Discover high-performance sportswear designed for maximum comfort, flexibility, durability, and confidence during every workout.",
   },
 ];
 
@@ -66,7 +78,7 @@ export default function HomeServices() {
   const navigate = useNavigate();
 
   const prevRef = useRef(null);
-const nextRef = useRef(null);
+  const nextRef = useRef(null);
 
   return (
     <>
@@ -74,7 +86,7 @@ const nextRef = useRef(null);
         <div className="max-w-[1350px] mx-auto px-5">
           {/* Heading */}
 
-          <div className="text-center mb-10">
+          <div className="text-center mb-6">
             <h2
               className="text-3xl md:text-4xl lg:text-4xl
                 font-bold
@@ -86,59 +98,57 @@ const nextRef = useRef(null);
           </div>
 
           <Swiper
-  modules={[Navigation, Pagination, Autoplay]}
-  slidesPerView={"auto"}
-  spaceBetween={35}
-  loop={true}
-  speed={900}
-  autoplay={{
-    delay: 2500,
-    disableOnInteraction: false,
-  }}
-  navigation={{
-    prevEl: prevRef.current,
-    nextEl: nextRef.current,
-  }}
-  onBeforeInit={(swiper) => {
-    swiper.params.navigation.prevEl = prevRef.current;
-    swiper.params.navigation.nextEl = nextRef.current;
-  }}
-  breakpoints={{
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 25,
-    },
-    1024: {
-      slidesPerView: 4,
-      spaceBetween: 30,
-    },
-  }}
->
-    <div className="flex justify-center items-center gap-5 mt-10">
+            modules={[Navigation, Pagination, Autoplay]}
+            slidesPerView={"auto"}
+            spaceBetween={35}
+            loop={true}
+            speed={900}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            navigation={{
+              prevEl: prevRef.current,
+              nextEl: nextRef.current,
+            }}
+            onBeforeInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+            }}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 25,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+              },
+            }}
+          >
+            <div className="flex justify-center items-center gap-5 mt-4">
+              <button
+                ref={prevRef}
+                className="w-12 h-12 rounded-full bg-[#1d1d1d] text-white flex items-center justify-center transition duration-300 hover:bg-[#d07f7b]"
+              >
+                ←
+              </button>
 
-  <button
-    ref={prevRef}
-    className="w-12 h-12 rounded-full bg-[#1d1d1d] text-white flex items-center justify-center transition duration-300 hover:bg-[#d07f7b]"
-  >
-    ←
-  </button>
-
-  <button
-    ref={nextRef}
-    className="w-12 h-12 rounded-full bg-[#1d1d1d] text-white flex items-center justify-center transition duration-300 hover:bg-[#d07f7b]"
-  >
-    →
-  </button>
-
-</div>
+              <button
+                ref={nextRef}
+                className="w-12 h-12 rounded-full bg-[#1d1d1d] text-white flex items-center justify-center transition duration-300 hover:bg-[#d07f7b]"
+              >
+                →
+              </button>
+            </div>
             {services.map((service, index) => (
               <SwiperSlide
                 key={index}
@@ -175,9 +185,8 @@ const nextRef = useRef(null);
                       {service.title}
                     </h3>
 
-                    <p className="text-white/70 mt-4 leading-7">
-                      Professional training with certified experts, personalized
-                      programs and premium support.
+                    <p className="text-white/95 mt-4 leading-7 text-[15px]">
+                      {service.description}
                     </p>
 
                     <button className="mt-8 flex items-center gap-3 text-white font-medium tracking-wide group-hover:text-[#d07f7b] transition">
