@@ -209,10 +209,10 @@ export default function Footer() {
               <div className="flex items-center gap-4">
                 <FaPhoneAlt className="text-[#d07f7b]" />
                 <a
-                  href="tel:+917900004334"
+                  href="tel:+919860463030"
                   className="hover:text-[#d07f7b] transition"
                 >
-                  +91 79000 04334
+                  +91 98604 63030
                 </a>
               </div>
 
