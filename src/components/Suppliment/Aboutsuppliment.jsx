@@ -15,7 +15,6 @@ export default function AboutSupplement() {
       overflow-hidden
       "
     >
-
       <div
         className="
         max-w-7xl
@@ -26,8 +25,6 @@ export default function AboutSupplement() {
         lg:px-10
         "
       >
-
-
         <div
           className="
           grid
@@ -42,11 +39,6 @@ export default function AboutSupplement() {
           items-center
           "
         >
-
-
-
-
-
           {/* Left Image Section */}
 
           <div
@@ -60,9 +52,6 @@ export default function AboutSupplement() {
             order-2 md:order-1
             "
           >
-
-
-
             {/* Background Card */}
 
             <div
@@ -87,11 +76,6 @@ export default function AboutSupplement() {
               "
             ></div>
 
-
-
-
-
-
             {/* Main Image */}
 
             <div
@@ -103,13 +87,9 @@ export default function AboutSupplement() {
               mt-5
               "
             >
-
-
               <img
                 src="https://i.pinimg.com/736x/d5/9f/4d/d59f4d39672c26880d1a19cfdb6370c6.jpg"
-
                 alt="Supplements"
-
                 className="
                 w-[260px]
 
@@ -136,10 +116,6 @@ export default function AboutSupplement() {
                 shadow-2xl
                 "
               />
-
-
-
-
 
               {/* Genuine Badge */}
 
@@ -173,8 +149,6 @@ export default function AboutSupplement() {
                 sm:py-6
                 "
               >
-
-
                 <h2
                   className="
                   text-3xl
@@ -188,7 +162,6 @@ export default function AboutSupplement() {
                   100%
                 </h2>
 
-
                 <p
                   className="
                   text-gray-600
@@ -201,23 +174,9 @@ export default function AboutSupplement() {
                 >
                   Genuine Products
                 </p>
-
-
               </div>
-
-
             </div>
-
-
           </div>
-
-
-
-
-
-
-
-
 
           {/* Right Content */}
 
@@ -226,9 +185,6 @@ export default function AboutSupplement() {
             order-1 md:order-2
             "
           >
-
-
-
             <span
               className="
               uppercase
@@ -247,12 +203,6 @@ export default function AboutSupplement() {
               Supplements
             </span>
 
-
-
-
-
-
-
             <h2
               className="
               text-3xl
@@ -268,20 +218,10 @@ export default function AboutSupplement() {
               mt-4
               "
             >
-
               About Our
-
               <br />
-
-              <span className="text-[#d07f7b]">
-                Premium Supplements
-              </span>
-
+              <span className="text-[#d07f7b]">Premium Supplements</span>
             </h2>
-
-
-
-
 
             {/* Line */}
 
@@ -304,11 +244,6 @@ export default function AboutSupplement() {
               "
             ></div>
 
-
-
-
-
-
             <p
               className="
               text-gray-600
@@ -323,16 +258,11 @@ export default function AboutSupplement() {
             >
               Proper nutrition plays a vital role in achieving fitness goals,
               and we are committed to providing genuine, high-quality
-              supplements that support your training and recovery.
-              At <strong>Velocity Sports & Fitness Academy</strong>, we offer
+              supplements that support your training and recovery. At{" "}
+              <strong>Velocity Academy</strong>, we offer
               carefully selected products from trusted brands to help you
               perform at your best.
             </p>
-
-
-
-
-
 
             <p
               className="
@@ -349,21 +279,15 @@ export default function AboutSupplement() {
               "
             >
               Our collection includes whey protein, mass gainers, creatine,
-              pre-workout supplements, multivitamins, and other sports
-              nutrition products that improve performance, recovery, and
-              overall health while supporting your fitness journey.
+              pre-workout supplements, multivitamins, and other sports nutrition
+              products that improve performance, recovery, and overall health
+              while supporting your fitness journey.
             </p>
 
-
-
-
-
-
-
             {/* Button */}
-<Link to="/contact">
-            <button
-              className="
+            <Link to="/contact">
+              <button
+                className="
               group
 
               mt-8
@@ -410,34 +334,21 @@ export default function AboutSupplement() {
 
               hover:shadow-[#d07f7b]/30
               "
-            >
-
-              Shop Now
-
-
-              <ArrowRight
-                size={20}
-                className="
+              >
+                Shop Now
+                <ArrowRight
+                  size={20}
+                  className="
                 transition-transform
 
                 group-hover:translate-x-1
                 "
-              />
-
-            </button>
-</Link>
-
-
+                />
+              </button>
+            </Link>
           </div>
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

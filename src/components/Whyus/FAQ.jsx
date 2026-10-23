@@ -48,7 +48,7 @@ export default function FAQSection() {
 
             <div className="absolute bottom-5 left-5 sm:bottom-8 sm:left-8">
               <p className="text-[#d07f7b] uppercase tracking-[2px] sm:tracking-[4px] text-xs sm:text-sm font-semibold">
-                Velocity Sports & Fitness Academy
+                Velocity Academy
               </p>
 
               <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mt-3 leading-tight">

@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 export default function AboutCricket() {
   return (
     <section className="bg-white py-12 sm:py-16 lg:pt-20 lg:pb-0 overflow-hidden">
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-
         <div
           className="
           grid
@@ -18,11 +15,7 @@ export default function AboutCricket() {
           items-center
           "
         >
-
-
-
           {/* Images */}
-
 
           <div
             className="
@@ -36,15 +29,11 @@ export default function AboutCricket() {
             order-1
             "
           >
-
-
             {/* Image 1 */}
 
             <img
               src="https://tidasports.com/wp-content/uploads/2025/07/Cricket-2_11zon-1024x576.jpg"
-
               alt="Cricket Coaching"
-
               className="
                 w-[45%]
 
@@ -60,16 +49,11 @@ export default function AboutCricket() {
               "
             />
 
-
-
-
             {/* Image 2 */}
 
             <img
               src="https://images.pexels.com/photos/37144635/pexels-photo-37144635/free-photo-of-cricketer-poses-at-striking-position-on-outdoor-pitch.jpeg"
-
               alt="Cricket Coaching"
-
               className="
                 w-[45%]
 
@@ -85,23 +69,11 @@ export default function AboutCricket() {
                 sm:mt-10
               "
             />
-
-
           </div>
-
-
-
-
-
-
-
 
           {/* Content */}
 
-
           <div className="order-1 md:order-2">
-
-
             <p
               className="
               uppercase
@@ -120,10 +92,6 @@ export default function AboutCricket() {
               Cricket Coaching
             </p>
 
-
-
-
-
             <h2
               className="
               text-3xl
@@ -138,21 +106,10 @@ export default function AboutCricket() {
               leading-tight
               "
             >
-
               About Our
-
               <br />
-
-              <span className="text-[#d07f7b]">
-                Cricket Program
-              </span>
-
-
+              <span className="text-[#d07f7b]">Cricket Program</span>
             </h2>
-
-
-
-
 
             <div
               className="
@@ -167,10 +124,6 @@ export default function AboutCricket() {
               rounded-full
               "
             ></div>
-
-
-
-
 
             <p
               className="
@@ -190,10 +143,6 @@ export default function AboutCricket() {
               technical skills, physical fitness, discipline, and match
               awareness through structured training sessions.
             </p>
-
-
-
-
 
             <p
               className="
@@ -217,16 +166,11 @@ export default function AboutCricket() {
               succeed.
             </p>
 
-
-
-
-
-
             {/* Button */}
 
-<Link to="/contact">
-            <button
-              className="
+            <Link to="/contact">
+              <button
+                className="
               group
 
               mt-6
@@ -260,35 +204,21 @@ export default function AboutCricket() {
 
               hover:text-white
               "
-            >
-
-              Join Now
-
-
-              <ArrowRight
-                size={18}
-                className="
+              >
+                Join Now
+                <ArrowRight
+                  size={18}
+                  className="
                 transition
 
                 group-hover:translate-x-1
                 "
-              />
-
-
-            </button>
-</Link>
-
-
+                />
+              </button>
+            </Link>
           </div>
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

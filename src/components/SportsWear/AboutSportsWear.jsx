@@ -15,7 +15,6 @@ export default function AboutSportsWear() {
       overflow-hidden
       "
     >
-
       <div
         className="
         max-w-7xl
@@ -26,8 +25,6 @@ export default function AboutSportsWear() {
         lg:px-10
         "
       >
-
-
         <div
           className="
           grid
@@ -43,10 +40,6 @@ export default function AboutSportsWear() {
           items-center
           "
         >
-
-
-
-
           {/* Left Side Image */}
 
           <div
@@ -56,13 +49,9 @@ export default function AboutSportsWear() {
             order-2 md:order-1
             "
           >
-
-
             <img
               src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=700"
-
               alt="Sports Wear"
-
               className="
               w-full
 
@@ -83,15 +72,7 @@ export default function AboutSportsWear() {
               shadow-2xl
               "
             />
-
-
           </div>
-
-
-
-
-
-
 
           {/* Right Side Content */}
 
@@ -100,9 +81,6 @@ export default function AboutSportsWear() {
             order-1 md:order-2
             "
           >
-
-
-
             <span
               className="
               uppercase
@@ -121,12 +99,6 @@ export default function AboutSportsWear() {
               Sports Wear
             </span>
 
-
-
-
-
-
-
             <h2
               className="
               text-3xl
@@ -143,21 +115,10 @@ export default function AboutSportsWear() {
               sm:mt-4
               "
             >
-
               Premium Sportswear
-
               <br />
-
-              <span className="text-[#d07f7b]">
-                For Every Athlete
-              </span>
-
+              <span className="text-[#d07f7b]">For Every Athlete</span>
             </h2>
-
-
-
-
-
 
             {/* Line */}
 
@@ -180,13 +141,6 @@ export default function AboutSportsWear() {
               "
             ></div>
 
-
-
-
-
-
-
-
             <p
               className="
               text-gray-600
@@ -201,16 +155,10 @@ export default function AboutSportsWear() {
             >
               The right sportswear enhances comfort, performance, and confidence
               during every workout or game. At
-              <strong> Velocity Sports & Fitness Academy</strong>, we offer a
+              <strong> Velocity Academy</strong>, we offer a
               premium collection of sportswear and fitness accessories designed
               for athletes, gym enthusiasts, and fitness lovers.
             </p>
-
-
-
-
-
-
 
             <p
               className="
@@ -227,24 +175,16 @@ export default function AboutSportsWear() {
               "
             >
               Our collection includes gym wear, cricket apparel, training
-              t-shirts, track pants, sports shoes, accessories, and
-              performance clothing made from high-quality, breathable, and
-              durable fabrics. Every product is designed to combine
-              functionality, comfort, and style, helping you perform your
-              best while looking your best.
+              t-shirts, track pants, sports shoes, accessories, and performance
+              clothing made from high-quality, breathable, and durable fabrics.
+              Every product is designed to combine functionality, comfort, and
+              style, helping you perform your best while looking your best.
             </p>
 
-
-
-
-
-
-
-
             {/* Button */}
-<Link to='/contact'>
-            <button
-              className="
+            <Link to="/contact">
+              <button
+                className="
               group
 
               mt-6
@@ -292,35 +232,21 @@ export default function AboutSportsWear() {
 
               hover:shadow-[#d07f7b]/30
               "
-            >
-
-              Shop Collection
-
-
-              <ArrowRight
-                size={20}
-
-                className="
+              >
+                Shop Collection
+                <ArrowRight
+                  size={20}
+                  className="
                 group-hover:translate-x-1
 
                 transition
                 "
-              />
-
-            </button>
-</Link>
-
-
+                />
+              </button>
+            </Link>
           </div>
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

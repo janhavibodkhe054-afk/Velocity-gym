@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 
 export default function HomePersonalTraining() {
-
   const programs = [
     {
       icon: House,
@@ -42,7 +41,6 @@ export default function HomePersonalTraining() {
     },
   ];
 
-
   return (
     <section
       className="
@@ -55,7 +53,6 @@ export default function HomePersonalTraining() {
       overflow-hidden
       "
     >
-
       <div
         className="
         max-w-7xl
@@ -65,8 +62,6 @@ export default function HomePersonalTraining() {
         sm:px-6
         "
       >
-
-
         {/* Heading */}
 
         <div
@@ -77,7 +72,6 @@ export default function HomePersonalTraining() {
           sm:mb-14
           "
         >
-
           <p
             className="
             text-[#d07f7b]
@@ -91,9 +85,6 @@ export default function HomePersonalTraining() {
           >
             Home Personal Training
           </p>
-
-
-
 
           <h2
             className="
@@ -112,13 +103,7 @@ export default function HomePersonalTraining() {
           >
             Our Home Personal Training Programs
           </h2>
-
-
         </div>
-
-
-
-
 
         {/* Programs Grid */}
 
@@ -137,20 +122,12 @@ export default function HomePersonalTraining() {
           lg:gap-12
           "
         >
-
-
-
-          {programs.map((item,index)=>{
-
-
+          {programs.map((item, index) => {
             const Icon = item.icon;
 
-
             return (
-
               <div
                 key={index}
-
                 className="
                 text-center
 
@@ -168,10 +145,6 @@ export default function HomePersonalTraining() {
                 hover:-translate-y-2
                 "
               >
-
-
-
-
                 {/* Icon */}
 
                 <div
@@ -218,24 +191,15 @@ export default function HomePersonalTraining() {
                   group-hover:shadow-xl
                   "
                 >
-
                   <Icon
                     size={50}
-
                     strokeWidth={1.5}
-
                     className="
                     sm:w-[55px]
                     sm:h-[55px]
                     "
                   />
-
                 </div>
-
-
-
-
-
 
                 {/* Title */}
 
@@ -256,11 +220,6 @@ export default function HomePersonalTraining() {
                   {item.title}
                 </h3>
 
-
-
-
-
-
                 {/* Description */}
 
                 <p
@@ -279,24 +238,11 @@ export default function HomePersonalTraining() {
                 >
                   {item.desc}
                 </p>
-
-
-
               </div>
-
             );
-
-
           })}
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

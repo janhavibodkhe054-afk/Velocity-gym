@@ -26,7 +26,6 @@ export default function SportsWearHero() {
           "url('https://i.pinimg.com/736x/40/72/e5/4072e55cd921b3d97afb555df849cdaf.jpg')",
       }}
     >
-
       {/* Dark Overlay */}
 
       <div
@@ -37,10 +36,6 @@ export default function SportsWearHero() {
         bg-black/50
         "
       ></div>
-
-
-
-
 
       {/* Content */}
 
@@ -57,9 +52,6 @@ export default function SportsWearHero() {
         max-w-5xl
         "
       >
-
-
-
         <h1
           className="
           text-white
@@ -78,11 +70,6 @@ export default function SportsWearHero() {
         >
           Sports Wear
         </h1>
-
-
-
-
-
 
         {/* Breadcrumb */}
 
@@ -108,8 +95,6 @@ export default function SportsWearHero() {
           md:text-base
           "
         >
-
-
           <span
             className="
             text-[#d07f7b]
@@ -119,10 +104,6 @@ export default function SportsWearHero() {
           >
             Home
           </span>
-
-
-
-
 
           <span
             className="
@@ -135,10 +116,6 @@ export default function SportsWearHero() {
             /
           </span>
 
-
-
-
-
           <span
             className="
             text-white
@@ -148,14 +125,8 @@ export default function SportsWearHero() {
           >
             Services
           </span>
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

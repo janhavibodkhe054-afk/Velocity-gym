@@ -44,7 +44,7 @@ export default function AboutSection() {
             {/* Image */}
 
             <motion.img
-              src="https://themesflat.co/html/zoyot/images/updown.jpg"
+              src="about-home.png"
               alt="Gym Training"
               animate={{
                 y: [0, -12, 0],

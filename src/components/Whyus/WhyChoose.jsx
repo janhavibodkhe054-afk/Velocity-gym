@@ -79,7 +79,7 @@ export default function WhyChoose() {
           </h2>
 
           <p className="mt-5 sm:mt-6 text-base sm:text-lg text-gray-600 leading-7 sm:leading-8">
-            At Velocity Sports & Fitness Academy, we combine expert coaching,
+            At Velocity Academy, we combine expert coaching,
             advanced training facilities, and a motivating environment to help
             every individual achieve lasting success in fitness, sports, and
             professional development.

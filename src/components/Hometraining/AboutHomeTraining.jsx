@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 export default function AboutHomeTraining() {
   return (
     <section className="bg-white py-12 sm:py-16 lg:pt-20 lg:pb-0 overflow-hidden">
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-
         <div
           className="
           grid
@@ -20,10 +17,6 @@ export default function AboutHomeTraining() {
           items-center
           "
         >
-
-
-
-
           {/* Left Content */}
 
           <div
@@ -32,8 +25,6 @@ export default function AboutHomeTraining() {
             lg:order-2
             "
           >
-
-
             <span
               className="
               uppercase
@@ -51,10 +42,6 @@ export default function AboutHomeTraining() {
               Personal Trainer – Home Service
             </span>
 
-
-
-
-
             <h2
               className="
               text-3xl
@@ -71,21 +58,10 @@ export default function AboutHomeTraining() {
               sm:mt-4
               "
             >
-
               Professional Fitness
-
               <br />
-
-              <span className="text-[#d07f7b]">
-                At Your Doorstep
-              </span>
-
+              <span className="text-[#d07f7b]">At Your Doorstep</span>
             </h2>
-
-
-
-
-
 
             <p
               className="
@@ -102,16 +78,12 @@ export default function AboutHomeTraining() {
               sm:mt-6
               "
             >
-              We understand that busy schedules and travel constraints
-              can make it difficult to visit the gym regularly.
-              Our Home Personal Training service brings certified
-              fitness coaching directly to your home, helping you
-              achieve your fitness goals in a comfortable environment.
+              We understand that busy schedules and travel constraints can make
+              it difficult to visit the gym regularly. Our Home Personal
+              Training service brings certified fitness coaching directly to
+              your home, helping you achieve your fitness goals in a comfortable
+              environment.
             </p>
-
-
-
-
 
             <p
               className="
@@ -127,23 +99,16 @@ export default function AboutHomeTraining() {
               mt-4
               "
             >
-              Every training session is tailored according to your
-              fitness level, health condition, and personal goals.
-              Our trainers provide continuous motivation, progress
-              tracking, and expert guidance to help you stay
-              consistent and achieve long-term results.
+              Every training session is tailored according to your fitness
+              level, health condition, and personal goals. Our trainers provide
+              continuous motivation, progress tracking, and expert guidance to
+              help you stay consistent and achieve long-term results.
             </p>
 
-
-
-
-
-
-
             {/* Button */}
-<Link to="/contact">
-            <button
-              className="
+            <Link to="/contact">
+              <button
+                className="
               group
 
               mt-6
@@ -178,32 +143,19 @@ export default function AboutHomeTraining() {
 
               gap-3
               "
-            >
-
-              Join Us
-
-
-              <ArrowRight
-                size={20}
-                className="
+              >
+                Join Us
+                <ArrowRight
+                  size={20}
+                  className="
                 transition-transform
 
                 group-hover:translate-x-1
                 "
-              />
-
-
-            </button>
-</Link>
-
+                />
+              </button>
+            </Link>
           </div>
-
-
-
-
-
-
-
 
           {/* Right Image */}
 
@@ -223,9 +175,6 @@ export default function AboutHomeTraining() {
             sm:min-h-[500px]
             "
           >
-
-
-
             {/* Outer Ring */}
 
             <div
@@ -249,12 +198,6 @@ export default function AboutHomeTraining() {
               border-[#f7eeee]
               "
             ></div>
-
-
-
-
-
-
 
             {/* Accent Circle */}
 
@@ -282,20 +225,11 @@ export default function AboutHomeTraining() {
               "
             ></div>
 
-
-
-
-
-
-
-
             {/* Main Image */}
 
             <img
               src="https://i.pinimg.com/1200x/de/96/d4/de96d42522618d602ea8bd1c5152f862.jpg"
-
               alt="Home Personal Trainer"
-
               className="
               relative
 
@@ -316,20 +250,9 @@ export default function AboutHomeTraining() {
               shadow-xl
               "
             />
-
-
-
           </div>
-
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

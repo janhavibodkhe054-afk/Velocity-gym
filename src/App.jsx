@@ -19,6 +19,9 @@ import Suppliment from "./pages/Suppliment";
 import SportsWear from "./pages/SportsWear";
 import Swimming from "./pages/Swimming";
 import AdvanceTrainer from "./pages/AdvanceTrainer";
+import AviationProgram from "./pages/AviationProgram";
+import IATA from "./pages/IATA";
+import VoiceOverArtist from "./pages/VoiceOverArtist";
 
 function App() {
   return (
@@ -40,6 +43,9 @@ function App() {
         <Route path="/sportswear" element={<SportsWear />} />
         <Route path="/swimming" element={<Swimming />} />
         <Route path="/trainer" element={<AdvanceTrainer />} />
+        <Route path="/aviation" element={<AviationProgram />} />
+        {/* <Route path="/iata" element={<IATA />} /> */}
+        <Route path="/voice-over-artist" element={<VoiceOverArtist/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

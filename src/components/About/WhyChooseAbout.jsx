@@ -30,7 +30,7 @@ export default function OurImpact() {
 
             <p className="mt-6 sm:mt-8 text-gray-300 leading-7 sm:leading-8 text-base sm:text-lg">
               Every achievement at{" "}
-              <strong>Velocity Sports & Fitness Academy</strong> represents a
+              <strong>Velocity Academy</strong> represents a
               journey of dedication and perseverance. From beginners taking
               their first step toward fitness to athletes refining their
               performance and future trainers preparing for successful careers,

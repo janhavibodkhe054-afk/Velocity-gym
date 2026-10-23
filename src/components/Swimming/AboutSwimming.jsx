@@ -169,7 +169,7 @@ const AboutSwimming = () => {
             Swimming is a life skill that improves fitness, endurance,
             confidence, and overall health. At{" "}
             <span className="font-semibold text-black">
-              Velocity Sports & Fitness Academy
+              Velocity Academy
             </span>
             , our professional swimming training is designed for children,
             adults, beginners, and competitive swimmers. Our certified coaches

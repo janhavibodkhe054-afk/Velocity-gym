@@ -44,7 +44,7 @@ export default function AboutMission() {
             </h2>
 
             <p className="mt-6 md:mt-8 text-gray-600 leading-7 md:leading-8 text-base md:text-lg">
-              Velocity Sports & Fitness Academy was established with a vision to
+              Velocity Academy was established with a vision to
               create a place where fitness, sports, and education come together
               under one roof. Our journey began with a simple goal—to help
               people become healthier, stronger, and more confident while

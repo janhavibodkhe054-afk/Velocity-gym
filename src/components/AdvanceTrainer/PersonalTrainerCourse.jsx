@@ -258,7 +258,7 @@ export default function PersonalTrainerCourse() {
             >
               The fitness industry is growing rapidly, creating outstanding
               career opportunities for skilled and certified personal trainers.
-              At <strong>Velocity Sports & Fitness Academy</strong>, we go
+              At <strong>Velocity Academy</strong>, we go
               beyond fitness training by preparing aspiring professionals with
               practical knowledge, technical expertise, and the confidence
               required to succeed in today's competitive fitness industry.

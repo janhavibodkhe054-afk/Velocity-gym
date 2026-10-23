@@ -32,13 +32,11 @@ export default function WhyAbout() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-gray-900">
               Why Thousands Trust
               <br />
-              Velocity Sports &
-              <br />
-              Fitness Academy
+              Velocity Academy
             </h2>
 
             <p className="text-gray-600 leading-7 sm:leading-8 mt-6 sm:mt-8 text-base sm:text-lg">
-              At <strong>Velocity Sports & Fitness Academy</strong>, we are
+              At <strong>Velocity Academy</strong>, we are
               committed to delivering an exceptional training experience that
               helps individuals unlock their true potential. Our academy
               combines professional coaching, modern training methods, and a

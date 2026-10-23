@@ -35,9 +35,8 @@ const handleWhatsApp = () => {
               JOURNEY WITH
               <span className="text-[#d07f7b]">
                 {" "}
-                VELOCITY SPORTS &
-                <br />
-                FITNESS ACADEMY?
+                VELOCITY ACADEMY?
+                
               </span>
             </h2>
 

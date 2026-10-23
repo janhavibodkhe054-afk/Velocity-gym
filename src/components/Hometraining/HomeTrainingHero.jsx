@@ -26,8 +26,6 @@ export default function HomeTrainingHero() {
           "url('https://i.pinimg.com/736x/05/e8/7e/05e87e0b7e2aeab10c9cc33bde7572d0.jpg')",
       }}
     >
-
-
       {/* Dark Overlay */}
 
       <div
@@ -38,10 +36,6 @@ export default function HomeTrainingHero() {
         bg-black/50
         "
       ></div>
-
-
-
-
 
       {/* Content */}
 
@@ -58,9 +52,6 @@ export default function HomeTrainingHero() {
         max-w-5xl
         "
       >
-
-
-
         <h1
           className="
           text-white
@@ -79,10 +70,6 @@ export default function HomeTrainingHero() {
         >
           Home Personal Training
         </h1>
-
-
-
-
 
         {/* Breadcrumb */}
 
@@ -108,9 +95,6 @@ export default function HomeTrainingHero() {
           md:text-base
           "
         >
-
-
-
           <span
             className="
             text-[#d07f7b]
@@ -120,10 +104,6 @@ export default function HomeTrainingHero() {
           >
             Home
           </span>
-
-
-
-
 
           <span
             className="
@@ -136,10 +116,6 @@ export default function HomeTrainingHero() {
             /
           </span>
 
-
-
-
-
           <span
             className="
             text-white
@@ -149,15 +125,8 @@ export default function HomeTrainingHero() {
           >
             Services
           </span>
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

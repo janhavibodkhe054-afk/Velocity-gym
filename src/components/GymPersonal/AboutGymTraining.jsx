@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 export default function AboutGymTraining() {
   return (
     <section className="bg-white py-12 sm:py-16 lg:pt-20 lg:pb-0 overflow-hidden">
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-
         <div
           className="
           grid
@@ -18,16 +15,12 @@ export default function AboutGymTraining() {
           items-center
           "
         >
-
-
           {/* Left Image */}
 
-          <div className="order-2 md:order-1"> 
-
+          <div className="order-2 md:order-1">
             <img
               src="/gym1.jpg"
               alt="Gym Personal Training"
-
               className="
               w-full
 
@@ -42,18 +35,11 @@ export default function AboutGymTraining() {
               shadow-lg
               "
             />
-
           </div>
-
-
-
-
 
           {/* Right Content */}
 
           <div>
-
-
             <span
               className="
               order-1 md:order-2
@@ -72,10 +58,6 @@ export default function AboutGymTraining() {
               Personal Training
             </span>
 
-
-
-
-
             <h2
               className="
               text-3xl
@@ -92,16 +74,8 @@ export default function AboutGymTraining() {
               "
             >
               Achieve Your Fitness Goals With
-
-              <span className="text-[#d07f7b]">
-                {" "}Expert Guidance
-              </span>
-
+              <span className="text-[#d07f7b]"> Expert Guidance</span>
             </h2>
-
-
-
-
 
             <p
               className="
@@ -117,19 +91,14 @@ export default function AboutGymTraining() {
               sm:leading-8
               "
             >
-              At <strong>Velocity Sports & Fitness Academy</strong>, our Gym
-              Personal Training program is designed to deliver personalized
-              fitness solutions tailored to your individual goals. Whether
-              you're aiming for weight loss, muscle gain, strength building,
-              or improved overall fitness, our certified trainers provide
-              dedicated one-on-one coaching to help you achieve lasting
-              results safely and effectively.
+              At <strong>Velocity Academy</strong>, our Gym Personal Training
+              program is designed to deliver personalized fitness solutions
+              tailored to your individual goals. Whether you're aiming for
+              weight loss, muscle gain, strength building, or improved overall
+              fitness, our certified trainers provide dedicated one-on-one
+              coaching to help you achieve lasting results safely and
+              effectively.
             </p>
-
-
-
-
-
 
             {/* Features */}
 
@@ -145,7 +114,6 @@ export default function AboutGymTraining() {
               mt-6
               "
             >
-
               {[
                 "Certified Trainers",
                 "Customized Workout Plans",
@@ -154,10 +122,8 @@ export default function AboutGymTraining() {
                 "Progress Tracking",
                 "Flexible Timings",
               ].map((item, index) => (
-
                 <div
                   key={index}
-
                   className="
                   flex
                   items-center
@@ -165,12 +131,10 @@ export default function AboutGymTraining() {
                   gap-3
                   "
                 >
-
                   <CheckCircle
                     size={22}
                     className="text-[#d07f7b] flex-shrink-0"
                   />
-
 
                   <span
                     className="
@@ -184,25 +148,15 @@ export default function AboutGymTraining() {
                   >
                     {item}
                   </span>
-
-
                 </div>
-
               ))}
-
-
             </div>
-
-
-
-
-
 
             {/* Button */}
 
             <Link to="/contact">
-  <button
-    className="
+              <button
+                className="
       group
       mt-8 sm:mt-10
       bg-[#d07f7b]
@@ -220,28 +174,17 @@ export default function AboutGymTraining() {
       active:scale-95
       flex items-center gap-3
     "
-  >
-    Contact Us
-
-    <ArrowRight
-      size={20}
-      className="transition-transform duration-300 group-hover:translate-x-2"
-    />
-  </button>
-</Link>
-
-
-
+              >
+                Contact Us
+                <ArrowRight
+                  size={20}
+                  className="transition-transform duration-300 group-hover:translate-x-2"
+                />
+              </button>
+            </Link>
           </div>
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

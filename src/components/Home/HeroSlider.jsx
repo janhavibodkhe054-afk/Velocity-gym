@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
@@ -6,110 +7,265 @@ import { useNavigate } from "react-router-dom";
 export default function HeroSlider() {
   const navigate = useNavigate();
 
+  const buttons = [
+    { label: "View More", path: "/about", primary: true },
+    { label: "Contact Us", path: "/contact", primary: false },
+  ];
+
   return (
-    <section className="relative h-[680px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[850px] overflow-hidden -mt-10">
-      {/* Background Image */}
-      <motion.img
-        src="/home-1.jpg"
-        alt="Hero"
+    <section
+      className="
+        relative w-full overflow-hidden
+        h-[600px]
+        sm:h-[620px]
+        md:h-[700px]
+        lg:h-[750px]
+        xl:h-[800px]
+        lg:-mt-20 bg-[#141414]
+      "
+    >
+      {/* BACKGROUND IMAGES */}
+      <motion.div
+        className="absolute inset-0"
         initial={{ scale: 1 }}
-        animate={{ scale: 1.08 }}
+        animate={{ scale: 1.025 }}
         transition={{
           duration: 12,
           repeat: Infinity,
           repeatType: "reverse",
           ease: "easeInOut",
         }}
+      >
+        {/* Mobile Image */}
+        <img
+          src="/mobile1.png"
+          alt="Velocity Academy Trainer"
+          className="
+            block md:hidden
+            absolute inset-0
+            w-full h-full
+            object-cover
+            object-[center_25%]
+          "
+        />
+
+        {/* Desktop Image */}
+        <img
+          src="/home-1.jpg"
+          alt="Velocity Academy Professional Training"
+          className="
+            hidden md:block
+            absolute inset-0
+            w-full h-full
+            object-contain object-center
+          "
+        />
+      </motion.div>
+
+      {/* MOBILE GRADIENT */}
+      <div
         className="
-    absolute inset-0
-    w-full h-full
-    object-cover
-    object-[10%_center]
-    sm:object-[25%_center]
-    md:object-center
-    lg:object-center
-  "
+          absolute inset-0 md:hidden
+          bg-gradient-to-b
+          from-black/10
+          via-black/45
+          to-black/90
+        "
       />
 
-      {/* Left Vertical Text */}
+      {/* DESKTOP OVERLAY */}
+      <div
+        className="
+          hidden md:block absolute inset-0
+          bg-black/20 lg:bg-black/10
+        "
+      />
+
+      {/* LEFT BRANDING */}
       <motion.div
         initial={{ opacity: 0, x: -30 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        className="hidden xl:block absolute left-6 top-1/2 -translate-y-1/2 z-20"
+        className="
+          hidden xl:block
+          absolute left-6 top-1/2 z-20
+        "
         style={{
           writingMode: "vertical-rl",
           transform: "translateY(-50%) rotate(180deg)",
         }}
       >
-        <span className="uppercase tracking-[8px] text-gray-300 text-sm">
-          Welcome To Velocity Sports & Fitness Academy
+        <span className="uppercase tracking-[8px] text-gray-300 text-xs">
+          Velocity Academy
         </span>
       </motion.div>
 
-      {/* Hero Content */}
-      <div className="relative z-20 flex items-center justify-center h-full px-5">
+      {/* HERO CONTENT */}
+      <div
+        className="
+          relative z-20
+          flex items-end md:items-center
+          justify-center
+          w-full h-full
+          px-5 sm:px-8
+          pb-12 sm:pb-14 md:pb-0
+          md:pt-20
+        "
+      >
         <motion.div
-          initial={{ opacity: 0, y: 60 }}
+          initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="max-w-4xl text-center"
+          transition={{ duration: 0.9 }}
+          className="
+            w-full min-w-0 mx-auto
+            max-w-[360px]
+            sm:max-w-[460px]
+            md:max-w-[530px]
+            text-center
+           
+          "
         >
-          <p className="uppercase tracking-[5px] md:tracking-[8px] text-[#cb826d] text-xs md:text-sm font-semibold">
+          {/* TAGLINE */}
+          <p
+            className="
+              uppercase font-semibold
+              text-[#e5a08b]
+              text-[10px] sm:text-xs md:text-sm
+              tracking-[2.5px]
+              md:tracking-[6px]
+            "
+          >
             WE ARE THE BEST
           </p>
 
-          <h1 className="mt-5 font-serif font-bold text-white leading-tight text-4xl sm:text-5xl md:text-6xl lg:text-6xl">
-            Velocity Sports
-            <br />& Fitness Academy
+          {/* HEADING */}
+          <h1
+            className="
+              mt-3 md:mt-5
+              font-bold text-white
+              text-[clamp(27px,7.5vw,36px)]
+              sm:text-[44px]
+              md:text-[48px]
+              lg:text-[54px]
+              xl:text-[58px]
+              leading-[1.2]
+              tracking-tight
+              drop-shadow-lg
+            "
+          >
+            Velocity Academy
           </h1>
 
-          <p className="mt-8 text-gray-200 text-base md:text-lg leading-8 max-w-2xl mx-auto">
-            Velocity Sports & Fitness Academy is Pune's destination for
-            professional fitness training, cricket coaching, umpiring, personal
-            training, premium sports supplements, and sportswear.
+          {/* DESCRIPTION */}
+          <p
+            className="
+              mt-3 md:mt-7 mx-auto
+              max-w-[320px]
+              sm:max-w-[420px]
+              md:max-w-[480px]
+              text-white/95
+              text-[17px]
+              sm:text-[14px]
+              md:text-[15px]
+              lg:text-base
+              leading-[1.7]
+              md:leading-8
+              drop-shadow-md
+            "
+          >
+            Velocity Academy is Pune's destination for
+            professional fitness training, cricket coaching,
+            umpiring, personal training, premium sports
+            supplements, and sportswear.
           </p>
 
-          {/* Buttons */}
+          {/* BUTTONS */}
+          <div
+            className="
+              mt-5 md:mt-10
+              flex flex-wrap
+              justify-center items-center
+              gap-3 md:gap-4
+            "
+          >
+            {buttons.map((btn) => (
+              <button
+                key={btn.path}
+                type="button"
+                onClick={() => navigate(btn.path)}
+                className="
+                  group relative overflow-hidden
+                  inline-flex items-center justify-center
+                  gap-2
+                  rounded-full
+                  border border-white/70
+                  backdrop-blur-sm
+                  px-4 py-2.5
+                  sm:px-6 sm:py-3.5
+                  md:px-8 md:py-4
+                  text-white
+                  text-[12px] sm:text-sm md:text-base
+                  font-medium whitespace-nowrap
+                  transition-all duration-500
+                  hover:scale-105
+                "
+              >
+                {/* Hover Fill */}
+                <span
+                  className={`
+                    absolute inset-0
+                    scale-x-0 origin-left
+                    transition-transform duration-500
+                    group-hover:scale-x-100
+                    ${
+                      btn.primary
+                        ? "bg-[#cb826d]"
+                        : "bg-white"
+                    }
+                  `}
+                />
 
-          <div className="mt-12 flex flex-col sm:flex-row justify-center gap-5">
-            <button
-              onClick={() => navigate("/about")}
-              className="group relative overflow-hidden border border-white/70 backdrop-blur-sm rounded-full px-8 py-4 text-white flex items-center justify-center gap-3 transition-all duration-500 hover:scale-105 hover:border-[#cb826d] hover:shadow-[0_0_30px_rgba(203,130,109,0.45)]"
-            >
-              {/* Glass Shine */}
-              <span className="absolute inset-0 -translate-x-full skew-x-12 bg-gradient-to-r from-transparent via-white/30 to-transparent transition-transform duration-1000 group-hover:translate-x-[250%]" />
+                {/* Shine */}
+                <span
+                  className="
+                    absolute inset-0
+                    -translate-x-full skew-x-12
+                    bg-gradient-to-r
+                    from-transparent via-white/20 to-transparent
+                    transition-transform duration-1000
+                    group-hover:translate-x-[250%]
+                  "
+                />
 
-              {/* Background Fill */}
-              <span className="absolute inset-0 bg-[#cb826d] scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100" />
+                <span
+                  className={`
+                    relative z-10
+                    transition-colors duration-300
+                    ${
+                      btn.primary
+                        ? "text-white"
+                        : "group-hover:text-black"
+                    }
+                  `}
+                >
+                  {btn.label}
+                </span>
 
-              <span className="relative z-10">View More</span>
-
-              <ArrowRight
-                size={18}
-                className="relative z-10 transition-all duration-500 group-hover:translate-x-2 group-hover:rotate-[-15deg]"
-              />
-            </button>
-
-            <button
-              onClick={() => navigate("/contact")}
-              className="group relative overflow-hidden border border-white/70 backdrop-blur-sm rounded-full px-8 py-4 text-white flex items-center justify-center gap-3 transition-all duration-500 hover:scale-105 hover:border-white hover:shadow-[0_0_30px_rgba(255,255,255,0.25)]"
-            >
-              {/* Glass Shine */}
-              <span className="absolute inset-0 -translate-x-full skew-x-12 bg-gradient-to-r from-transparent via-white/30 to-transparent transition-transform duration-1000 group-hover:translate-x-[250%]" />
-
-              {/* White Fill */}
-              <span className="absolute inset-0 bg-white scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100" />
-
-              <span className="relative z-10 group-hover:text-black transition-colors duration-300">
-                Contact Us
-              </span>
-
-              <ArrowRight
-                size={18}
-                className="relative z-10 transition-all duration-500 group-hover:translate-x-2 group-hover:text-black"
-              />
-            </button>
+                <ArrowRight
+                  size={16}
+                  className={`
+                    relative z-10 shrink-0
+                    transition-all duration-300
+                    group-hover:translate-x-1
+                    ${
+                      btn.primary
+                        ? "text-white"
+                        : "group-hover:text-black"
+                    }
+                  `}
+                />
+              </button>
+            ))}
           </div>
         </motion.div>
       </div>

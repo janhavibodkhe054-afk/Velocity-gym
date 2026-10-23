@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 export default function AboutUmpiring() {
   return (
     <section className="bg-white py-12 sm:py-16 lg:pt-20 lg:pb-0 overflow-hidden">
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-
         <div
           className="
           grid
@@ -20,12 +17,7 @@ export default function AboutUmpiring() {
           items-center
           "
         >
-
-
-
-
           {/* Left Image */}
-
 
           <div
             className="
@@ -39,8 +31,6 @@ export default function AboutUmpiring() {
 
             "
           >
-
-
             {/* Background Box */}
 
             <div
@@ -61,10 +51,6 @@ export default function AboutUmpiring() {
               rounded-lg
               "
             ></div>
-
-
-
-
 
             {/* Vertical Accent */}
 
@@ -89,19 +75,11 @@ export default function AboutUmpiring() {
               "
             ></div>
 
-
-
-
-
-
-
             {/* Main Image */}
 
             <img
               src="https://i.pinimg.com/736x/02/0d/e2/020de2f53b3fb945b9d8433f2bda1043.jpg"
-
               alt="Umpiring Training"
-
               className="
               relative
 
@@ -122,27 +100,15 @@ export default function AboutUmpiring() {
               shadow-xl
               "
             />
-
-
           </div>
 
-
-
-
-
-
-
-
           {/* Right Content */}
-
 
           <div
             className="
             order-1 md:order-2
             "
           >
-
-
             <span
               className="
               uppercase
@@ -160,12 +126,6 @@ export default function AboutUmpiring() {
               Umpiring Training
             </span>
 
-
-
-
-
-
-
             <h2
               className="
               text-3xl
@@ -182,23 +142,10 @@ export default function AboutUmpiring() {
               sm:mt-4
               "
             >
-
               Build Your Career
-
               <br />
-
-              <span className="text-gray-900">
-                As A Cricket Umpire
-              </span>
-
-
+              <span className="text-gray-900">As A Cricket Umpire</span>
             </h2>
-
-
-
-
-
-
 
             <div
               className="
@@ -214,12 +161,6 @@ export default function AboutUmpiring() {
               "
             ></div>
 
-
-
-
-
-
-
             <p
               className="
               text-gray-600
@@ -233,17 +174,11 @@ export default function AboutUmpiring() {
               "
             >
               Cricket is not only about playing the game but also about
-              officiating it with confidence, accuracy, and professionalism.
-              Our Umpiring Training Program is specially designed for
-              individuals who wish to build a career as cricket umpires or
-              enhance their understanding of the Laws of Cricket.
+              officiating it with confidence, accuracy, and professionalism. Our
+              Umpiring Training Program is specially designed for individuals
+              who wish to build a career as cricket umpires or enhance their
+              understanding of the Laws of Cricket.
             </p>
-
-
-
-
-
-
 
             <p
               className="
@@ -264,20 +199,12 @@ export default function AboutUmpiring() {
               district, and higher-level cricket matches with confidence.
             </p>
 
-
-
-
-
-
-
             {/* Button */}
 
-
             <div className="mt-6">
-
-<Link to="/contact">
-              <button
-                className="
+              <Link to="/contact">
+                <button
+                  className="
                 group
 
                 bg-[#d07f7b]
@@ -309,39 +236,22 @@ export default function AboutUmpiring() {
 
                 hover:-translate-y-1
                 "
-              >
-
-                Join Now
-
-
-                <ArrowRight
-                  size={18}
-                  className="
+                >
+                  Join Now
+                  <ArrowRight
+                    size={18}
+                    className="
                   transition
 
                   group-hover:translate-x-1
                   "
-                />
-
-
-              </button>
-
-</Link>
+                  />
+                </button>
+              </Link>
             </div>
-
-
-
           </div>
-
-
-
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }
