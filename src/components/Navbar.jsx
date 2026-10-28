@@ -28,21 +28,18 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="w-full px-4 sm:px-6 lg:px-10">
         <div className="flex items-center justify-between h-24">
-
           {/* Logo */}
-          <a href="/" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-3 shrink-0">
             <img
               src="/logo.jpeg"
-              alt="Velocity Sports & Fitness Academy Logo"
-              className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain"
+              alt="Velocity Academy Logo"
+              className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain shrink-0"
             />
 
-            <div>
-              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-none text-slate-900">
+            <div className="min-w-fit">
+              <h1 className="text-lg sm:text-2xl lg:text-3xl font-extrabold leading-tight tracking-normal whitespace-nowrap bg-gradient-to-r from-[#a8324a] via-[#d07f7b] to-[#9f2945] bg-clip-text text-transparent">
                 Velocity Academy
               </h1>
-
-              
             </div>
           </a>
 
@@ -115,9 +112,7 @@ export default function Navbar() {
             </div>
 
             <div>
-              <p className="font-semibold text-lg">
-                +91 98604 63030
-              </p>
+              <p className="font-semibold text-lg">+91 98604 63030</p>
 
               <div className="flex items-center gap-1 text-sm text-gray-600">
                 <MapPin size={14} />
@@ -161,7 +156,6 @@ export default function Navbar() {
             <details className="group">
               <summary className="flex justify-between items-center cursor-pointer py-3 font-medium hover:text-[#d07f7b] transition duration-300 list-none">
                 Services
-
                 <ChevronDown
                   size={18}
                   className="transition-transform duration-300 group-open:rotate-180"
@@ -222,8 +216,8 @@ export default function Navbar() {
                 />
 
                 <span className="text-sm text-gray-600">
-                  2nd Floor, Koul Building No. 1, Next to Tata Showroom,
-                  Opp. Kumar Pacific Mall, Swargate, Pune - 411042
+                  2nd Floor, Koul Building No. 1, Next to Tata Showroom, Opp.
+                  Kumar Pacific Mall, Swargate, Pune - 411042
                 </span>
               </div>
             </div>
@@ -233,4 +227,3 @@ export default function Navbar() {
     </header>
   );
 }
-

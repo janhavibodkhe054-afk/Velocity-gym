@@ -1,11 +1,11 @@
 export default function GalleryStrip() {
   const images = [
-    "https://i.pinimg.com/vwebp/1200x/d4/8b/b7/d48bb7d572e17989c6b4c3ee9c67f62a.webp",
-    "https://i.pinimg.com/vwebp/1200x/00/7b/11/007b11f4ea0e38dbefba6e20c73da199.webp",
-    "https://i.pinimg.com/736x/89/51/67/895167fd2c0766411589d3dd282829a7.jpg",
-    "https://i.pinimg.com/736x/45/61/b9/4561b9d9aa5f1e2455cb320658d7e766.jpg",
-    "https://i.pinimg.com/736x/d8/83/3e/d8833eacba8294b4422ec6287dacfa24.jpg",
-    "https://i.pinimg.com/736x/19/44/97/194497ab8678d0c60ff43cdd0b1ff789.jpg",
+    "/s1.webp",
+    "/s2.webp",
+    "/s3.jpg",
+    "/s4.jpg",
+    "/s5.jpg",
+    "/s6.jpg",
   ];
 
   return (

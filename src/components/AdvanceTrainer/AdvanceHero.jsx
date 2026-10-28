@@ -22,7 +22,7 @@ export default function AdvanceHero() {
       "
       style={{
         backgroundImage:
-          "url('https://i.pinimg.com/736x/98/06/c5/9806c535293dc75586afc74d6b6111a0.jpg')",
+          "url('/advance-hero.jpg')",
       }}
     >
 

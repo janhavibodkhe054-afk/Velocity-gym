@@ -5,14 +5,18 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "/gallery/1.jpg",
-    "/gallery/2.jpg",
-    "/gallery/3.jpg",
-    "/gallery/4.jpg",
-    "/gallery/5.jpg",
-    "/gallery/6.jpg",
-    "/gallery/7.jpg",
-    "/gallery/8.jpg",
+    "/gymS5.jpg",
+    "/voice1.jpg",
+    "/sw1.jpg",
+    "/h2.jpg",
+    "/u5.jpg",
+    "/tr6.jpg",
+    "/sp2.jpg",
+    "/cr6.jpg",
+    "/gymS3.jpg",
+    "/u2.jpg",
+    "/aviation3.avif",
+    "/voice4.jpg",
   ];
 
   return (

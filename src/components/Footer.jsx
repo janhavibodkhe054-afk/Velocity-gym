@@ -249,10 +249,10 @@ export default function Footer() {
                 <FaEnvelope className="text-[#d07f7b] mt-1 flex-shrink-0" />
 
                 <a
-                  href="mailto:info@velocitysportsfitness.com"
+                  href="mailto:velocitysports24@gmail.com"
                   className="hover:text-[#d07f7b] transition duration-300 break-all"
                 >
-                  info@velocitysportsfitness.com
+                  velocitysports24@gmail.com
                 </a>
               </div>
             </div>

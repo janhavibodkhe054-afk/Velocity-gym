@@ -1,11 +1,11 @@
 export default function GalleryStrip() {
   const images = [
-    "https://cricketcollective.zendesk.com/hc/article_attachments/30700352032669",
-    "https://www.umpireschool.com/z/-vf.0.0.0.92.A32F1EE5EE89B0B6F7DD590D3AFC9F249A33F9FDF0F6B59A5EE083AE95DBD269",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmHnNDgaUSUDJ-ItP1cejMzcKDpORDw-47HQw8pb9IOsIRQMPFdXoosU&s=10",
-    "https://i.pinimg.com/1200x/5f/43/ed/5f43ed9fe2cd43e75914aa70f647d364.jpg",
-    "https://i.pinimg.com/1200x/4c/65/60/4c6560083314080e8bdfe575fbbe252f.jpg",
-    "https://i.pinimg.com/1200x/93/5c/b8/935cb8bd8d488742f711d0ccdfd56011.jpg",
+    "/u1.JPG",
+    "/u2.jpg",
+    "/u3.jpg",
+    "/u4.jpg",
+    "/u5.jpg",
+    "/u6.jpg",
   ];
 
   return (

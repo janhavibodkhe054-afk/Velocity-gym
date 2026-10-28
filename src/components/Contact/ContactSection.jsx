@@ -48,7 +48,7 @@ ${formData.message}`;
         "Swargate, Pune, Maharashtra - 411042",
       ],
       mapQuery:
-        "Velocity Sports and Fitness Academy, Koul Building No 1, Swargate, Pune 411042",
+        "Velocity Academy, Koul Building No 1, Swargate, Pune 411042",
     },
     {
       name: "Nashik Branch",
@@ -110,10 +110,10 @@ ${formData.message}`;
                 <div className="min-w-0">
                   <h4 className="font-bold text-lg">Contact Mail</h4>
                   <a
-                    href="mailto:velocityfitness@gmail.com"
+                    href="mailto:velocitysports24@gmail.com"
                     className="text-gray-600 mt-2 block break-all text-sm sm:text-base hover:text-[#d07f7b] transition"
                   >
-                    velocityfitness@gmail.com
+                    velocitysports24@gmail.com
                   </a>
                 </div>
               </div>
@@ -129,7 +129,7 @@ ${formData.message}`;
 
                   <p className="text-gray-600 mt-2 leading-7 text-sm sm:text-base">
                     <strong className="text-gray-800">
-                      Velocity Sports & Fitness Academy
+                      Velocity Academy
                     </strong>
                     <br />
                     2nd Floor, Koul Building No. 1,
@@ -165,7 +165,7 @@ ${formData.message}`;
 
                   <p className="text-gray-600 mt-2 leading-7 text-sm sm:text-base">
                     <strong className="text-gray-800">
-                      Velocity Sports & Fitness Academy
+                      Velocity Academy
                     </strong>
                     <br />
                     4th Floor, Nirman Inspire Building,
@@ -287,7 +287,7 @@ ${formData.message}`;
             </h2>
 
             <p className="text-gray-600 mt-3 max-w-2xl mx-auto text-sm sm:text-base">
-              Find the nearest Velocity Sports & Fitness Academy branch
+              Find the nearest Velocity Academy branch
               and plan your visit.
             </p>
           </div>

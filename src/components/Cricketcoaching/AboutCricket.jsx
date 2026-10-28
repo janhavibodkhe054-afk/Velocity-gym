@@ -32,7 +32,7 @@ export default function AboutCricket() {
             {/* Image 1 */}
 
             <img
-              src="https://tidasports.com/wp-content/uploads/2025/07/Cricket-2_11zon-1024x576.jpg"
+              src="/cr5.jpg"
               alt="Cricket Coaching"
               className="
                 w-[45%]
@@ -52,7 +52,7 @@ export default function AboutCricket() {
             {/* Image 2 */}
 
             <img
-              src="https://images.pexels.com/photos/37144635/pexels-photo-37144635/free-photo-of-cricketer-poses-at-striking-position-on-outdoor-pitch.jpeg"
+              src="cr6.jpg"
               alt="Cricket Coaching"
               className="
                 w-[45%]

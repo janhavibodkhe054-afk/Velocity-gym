@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
@@ -159,26 +158,24 @@ export default function HeroSlider() {
           {/* DESCRIPTION */}
           <p
             className="
-              mt-3 md:mt-7 mx-auto
-              max-w-[320px]
-              sm:max-w-[420px]
-              md:max-w-[480px]
-              text-white/95
-              text-[17px]
-              sm:text-[14px]
-              md:text-[15px]
-              lg:text-base
-              leading-[1.7]
-              md:leading-8
-              drop-shadow-md
-            "
+    mt-3 md:mt-7 mx-auto
+    max-w-[320px]
+    sm:max-w-[420px]
+    md:max-w-[480px]
+    text-white/95
+    text-[17px]
+    sm:text-[14px]
+    md:text-[15px]
+    lg:text-base
+    leading-[1.7]
+    md:leading-8
+    drop-shadow-md
+  "
           >
-            Velocity Academy is Pune's destination for
-            professional fitness training, cricket coaching,
-            umpiring, personal training, premium sports
-            supplements, and sportswear.
+            Explore professional Personal Training Courses, Airline Career
+            Programs, and Voice Over Artist Training at Velocity Academy to
+            develop your skills and build a successful career.
           </p>
-
           {/* BUTTONS */}
           <div
             className="
@@ -217,11 +214,7 @@ export default function HeroSlider() {
                     scale-x-0 origin-left
                     transition-transform duration-500
                     group-hover:scale-x-100
-                    ${
-                      btn.primary
-                        ? "bg-[#cb826d]"
-                        : "bg-white"
-                    }
+                    ${btn.primary ? "bg-[#cb826d]" : "bg-white"}
                   `}
                 />
 
@@ -241,11 +234,7 @@ export default function HeroSlider() {
                   className={`
                     relative z-10
                     transition-colors duration-300
-                    ${
-                      btn.primary
-                        ? "text-white"
-                        : "group-hover:text-black"
-                    }
+                    ${btn.primary ? "text-white" : "group-hover:text-black"}
                   `}
                 >
                   {btn.label}
@@ -257,11 +246,7 @@ export default function HeroSlider() {
                     relative z-10 shrink-0
                     transition-all duration-300
                     group-hover:translate-x-1
-                    ${
-                      btn.primary
-                        ? "text-white"
-                        : "group-hover:text-black"
-                    }
+                    ${btn.primary ? "text-white" : "group-hover:text-black"}
                   `}
                 />
               </button>
